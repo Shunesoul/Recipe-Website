@@ -1,0 +1,17 @@
+.background {
+    background-color: #e2e28a;
+}
+.mainTitlebar {
+    display: flex;
+}
+.mainTitlebar a {
+    font-size: larger;
+    font-weight: bolder;
+    margin-right: 30rem;
+}
+.mainTitlebar button {
+    font-size: large;
+    color: white;
+    margin: auto;
+    background-color: brown;
+}
