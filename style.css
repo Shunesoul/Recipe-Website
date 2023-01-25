@@ -5,12 +5,12 @@
     display: flex;
 }
 .mainTitlebar a {
-    font-size: larger;
+    font-size:5rem;
     font-weight: bolder;
     margin-right: 30rem;
 }
 .mainTitlebar button {
-    font-size: large;
+    font-size: 2rem;
     color: white;
     margin: auto;
     background-color: brown;
@@ -44,4 +44,20 @@
     height: 20rem;
     border: solid 5px black;
     border-radius: 100px;
+}
+button {
+    transition: transform .3s ease-in-out;
+}
+  
+button:hover {
+    transform: scale(1.1);
+}
+.titleImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: solid 5px black;
+    border-radius: 60px;
+    margin-top: 6rem;
 }
