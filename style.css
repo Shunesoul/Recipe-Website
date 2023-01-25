@@ -15,11 +15,24 @@
     margin: auto;
     background-color: brown;
 }
+.mainTitlebar img {
+    flex-wrap: wrap;
+}
+.titleBit {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction:column;
+}
+.titleBit div {
+    text-align: center;
+}
 .contentBoxes {
     display: flex;
     align-items: center;
     justify-content: center;
     border: solid 2px;
+    gap: 1rem;
 }
 .contentBoxes a {
     font-size: x-large;
