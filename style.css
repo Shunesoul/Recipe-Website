@@ -3,17 +3,24 @@
 }
 .mainTitlebar {
     display: flex;
+    background-color: black;
+    opacity: 82%;
+    border: solid 2px;
+    border-color: grey;
 }
 .mainTitlebar a {
     font-size:5rem;
     font-weight: bolder;
     margin-right: 30rem;
+    color: white;
+    margin-left: 2px;
 }
 .mainTitlebar button {
     font-size: 2rem;
     color: white;
     margin: auto;
-    background-color: brown;
+    background-color: darkblue;
+    
 }
 .mainTitlebar img {
     flex-wrap: wrap;
@@ -23,9 +30,12 @@
     justify-content: center; 
     align-items: center;
     flex-direction:column;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 .titleBit div {
     text-align: center;
+    margin: 1px;
 }
 .contentBoxes {
     display: flex;
@@ -38,6 +48,7 @@
     font-size: x-large;
     color: blue;
     border: solid 2px;
+    border-radius: 10px;
 }
 .contentBoxes img {
     width: 20rem;
@@ -47,6 +58,7 @@
 }
 button {
     transition: transform .3s ease-in-out;
+    border-radius: 23px;
 }
   
 button:hover {
