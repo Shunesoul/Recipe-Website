@@ -1,5 +1,5 @@
-.background {
-    background-color: #e2e28a;
+.background{
+    background-image: url(./images/pexels-miguel-á-padriñán-194096.jpg);
 }
 .mainTitlebar {
     display: flex;
@@ -41,20 +41,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid 2px;
+    border: solid 10px;
     gap: 1rem;
 }
 .contentBoxes a {
     font-size: x-large;
     color: blue;
-    border: solid 2px;
+    border: solid 3px;
     border-radius: 10px;
+    margin: 3px;
 }
 .contentBoxes img {
     width: 20rem;
     height: 20rem;
     border: solid 5px black;
     border-radius: 100px;
+    margin: 3px;
 }
 button {
     transition: transform .3s ease-in-out;
