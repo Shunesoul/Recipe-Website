@@ -75,3 +75,76 @@ button:hover {
     border-radius: 60px;
     margin-top: 6rem;
 }
+.listSection {
+    border: 4px;
+    /* border: solid green; */
+    margin: 4rem;
+    padding: 2rem;
+    height: 120remrem;
+    display: flex;
+}
+.listSectionwords {
+    border: 20px;
+    border: solid black;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 2rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    width: 60rem;
+    background-color: rgba(17, 19, 19, 0.689);
+}
+.listSectionTitle {
+    /* border: 2rem;
+    border: solid orange; */
+    background-color: rgba(96, 97, 98, 0.33);
+    margin: 1px;
+    padding: 2px;
+    font-size: 5rem;
+    color: white;
+}
+.listSectioncontentcontainer {
+    border: 2px;
+    /* border: solid blue; */
+    margin: 2px;
+    display: flex;
+}
+.listSectionimage {
+    height: 20rem;
+    width: 25rem;
+    margin: 2rem;
+    border: 3px;
+    border: solid black;
+}
+.listSectioncontentcontainerbox {
+    border: 2rem;
+    /* border: solid blue; */
+    margin: 2rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+.listSectioncontentcontainertitle {
+    border: 2rem;
+    /* border: solid red; */
+    margin: 2rem;
+    font-size: 3rem;
+    color: white;
+}
+.listSectioncontentcontaineritemdescription {
+    border: 2rem;
+    /* border: solid green; */
+    margin: 2rem;
+    font-size: 29px;
+    color: white;
+
+}
+.listSectionblankspace {
+    /* border: 4px;
+    border: solid red; */
+    margin: 2rem;
+    padding: 2rem;
+    width: 28rem;
+}
+
