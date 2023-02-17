@@ -193,3 +193,85 @@ button:hover {
     margin: 2rem;
     text-align: center;   
 }
+.recipeLayout {
+    border: 2rem;
+    border: solid blue;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+}
+.recipeTitle {
+    border: 2rem;
+    border: solid green;
+    font-size: 9rem;
+    text-align: center;
+    margin: 2rem;
+}
+.recipeLayoutcontent {
+    border: 2rem;
+    border: solid red;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+.recipeLayoutcontentimg {
+    border: 2rem;
+    border: solid orange;
+    margin: auto;
+}
+.recipeLayoutcontent1 {
+    border: 2rem;
+    border: solid green;
+    display: flex;
+    flex-direction: row;
+    height: 40rem;
+    justify-content: space-evenly;
+}
+.recipeLayoutcontent2 {
+    border: 2rem;
+    border: solid blue;
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+}
+.recipeLayoutingredients {
+    border: 2rem;
+    border: solid green;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+.recipeLayoutingredientstitle {
+    border: 2rem;
+    border: solid blue;
+    font-size: 4rem;
+    margin: 2rem;
+}
+.recipeLayoutingredientslist {
+    border: 2rem;
+    border: solid orange;
+    margin: 2rem;
+    font-size: 2rem;
+}
+.imageWithscrollbar {
+    border: 2rem;
+    border: solid teal;
+    margin: 2rem;
+}
+.recipeLayoutcontentsteps {
+    border: 2rem;
+    border: solid red;
+    margin: 2rem;
+}
+.recipeLayoutstepstitle {
+    border: 2rem;
+    border: solid gold;
+    font-size: 4rem;
+    margin: 2rem;
+}
+.recipeLayoutstepscontent {
+    border: 2rem;
+    border: solid red;
+    font-size: 2rem;
+    margin: 2rem;
+}
