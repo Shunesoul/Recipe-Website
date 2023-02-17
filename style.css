@@ -195,63 +195,77 @@ button:hover {
 }
 .recipeLayout {
     border: 2rem;
-    border: solid blue;
+    /* border: solid blue; */
     display: flex;
     flex-direction: column;
     margin: 3rem;
 }
 .recipeTitle {
     border: 2rem;
-    border: solid green;
+    border: solid black;
     font-size: 9rem;
     text-align: center;
     margin: 2rem;
+    background-color: rgba(0, 0, 0, 0.363);
+    color: White;
+    text-shadow: 2rem;
+    border-radius: 20px;
 }
 .recipeLayoutcontent {
     border: 2rem;
-    border: solid red;
+    /* border: solid red; */
     display: flex;
     flex-direction: column;
     margin: 2rem;
 }
 .recipeLayoutcontentimg {
     border: 2rem;
-    border: solid orange;
-    margin: auto;
+    /* border: solid orange; */
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
 }
 .recipeLayoutcontent1 {
     border: 2rem;
-    border: solid green;
+    border: solid black;
     display: flex;
     flex-direction: row;
-    height: 40rem;
+    height: 200rem;
     justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.363);
+    border-radius: 20px;
+
 }
 .recipeLayoutcontent2 {
     border: 2rem;
-    border: solid blue;
+    /* border: solid blue; */
     display: flex;
     flex-direction: column;
     margin: 4rem;
 }
 .recipeLayoutingredients {
     border: 2rem;
-    border: solid green;
+    border: solid black;
     display: flex;
     flex-direction: column;
     margin: 2rem;
+    background-color: rgba(255, 255, 255, 0.165);
+    border-radius: 20px;
 }
 .recipeLayoutingredientstitle {
     border: 2rem;
-    border: solid blue;
+    border: solid rgba(3, 3, 40, 0.807);
     font-size: 4rem;
     margin: 2rem;
+    border-radius: 20px;
+    color: greenyellow;
 }
 .recipeLayoutingredientslist {
     border: 2rem;
-    border: solid orange;
+    /* border: solid orange; */
     margin: 2rem;
     font-size: 2rem;
+    color: white;
 }
 .imageWithscrollbar {
     border: 2rem;
@@ -260,18 +274,26 @@ button:hover {
 }
 .recipeLayoutcontentsteps {
     border: 2rem;
-    border: solid red;
+    border: solid black;
     margin: 2rem;
+    background-color: rgba(255, 255, 255, 0.165);
+    border-radius: 20px;
+    height: 50rem;
 }
 .recipeLayoutstepstitle {
     border: 2rem;
-    border: solid gold;
+    border: solid rgba(3, 3, 40, 0.807);
     font-size: 4rem;
     margin: 2rem;
+    color: greenyellow;
+    border-radius: 20px;
+
+
 }
 .recipeLayoutstepscontent {
     border: 2rem;
-    border: solid red;
+    /* border: solid red; */
     font-size: 2rem;
     margin: 2rem;
+    color: white;
 }
