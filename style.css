@@ -230,7 +230,7 @@ button:hover {
     border: solid black;
     display: flex;
     flex-direction: row;
-    height: 200rem;
+    /* height: 200rem; */
     justify-content: space-evenly;
     background-color: rgba(0, 0, 0, 0.363);
     border-radius: 20px;
