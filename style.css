@@ -32,6 +32,10 @@
     flex-direction:column;
     margin-top: 1rem;
     margin-bottom: 2rem;
+    border: 2rem;
+    border: solid rgba(0, 0, 0, 0.593);
+    background-color: rgba(128, 128, 128, 0.471);
+    border-radius: 50px;
 }
 .titleBit div {
     text-align: center;
