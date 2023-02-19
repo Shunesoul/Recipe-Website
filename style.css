@@ -22,6 +22,12 @@
     background-color: darkblue;
     
 }
+.mainTitlebarlinks {
+    display: flex;
+    flex-direction: row;
+    margin-left: 27rem;
+    gap: 2rem;
+}
 .mainTitlebar img {
     flex-wrap: wrap;
 }
