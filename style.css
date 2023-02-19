@@ -7,13 +7,17 @@
     opacity: 82%;
     border: solid 2px;
     border-color: grey;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .mainTitlebar a {
     font-size:4rem;
     font-weight: bolder;
-    margin-right: 30rem;
     color: white;
-    margin-left: 2px;
+    margin: 2rem;
+}
+.mainTitlebar a button {
+    font-size: 40px;
 }
 .mainTitlebar button {
     font-size: 2rem;
